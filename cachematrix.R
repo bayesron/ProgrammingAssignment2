@@ -38,3 +38,20 @@ cacheSolve <- function(x, ...) {
         x$setInverse(inv)
         inv
 }
+
+# solution run
+
+
+## > J <- matrix(c(1,2,3,4),2,2)
+## > J1 <- makeCacheMatrix(J)
+
+## > cacheSolve(J1)
+## [,1] [,2]
+## [1,]   -2  1.5
+## [2,]    1 -0.5
+
+## > cacheSolve(J1)
+# getting cached data
+## [,1] [,2]
+## [1,]   -2  1.5
+## [2,]    1 -0.5
